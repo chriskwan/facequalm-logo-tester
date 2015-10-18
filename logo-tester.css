@@ -1,0 +1,40 @@
+.logo {
+  position: relative;
+  /* background-color: red; */
+  width: 80px;
+  height: 130px;
+  padding: 0px 0px 0px 0px;
+  font-family: monospace;
+  
+  /* The question mark div is actually bigger than the parent, don't show the extra spacing */
+  overflow: hidden;
+}
+.logo .logo-question {
+  position: absolute;
+  
+  /* Doing this because I don't know how to reduce the space around the text */
+  top: -55px;
+  left: -20px;
+  
+  font-size: 15em;
+  /* background-color: green; */
+}
+.logo .logo-face {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 2em;
+  transform: rotate(90deg);
+}
+
+#faceInput {
+  width: 2em;
+}
+
+#rotationInput {
+  width: 2em;
+}
+
+#randomRepeatInput{
+  width: 2em;  
+}
