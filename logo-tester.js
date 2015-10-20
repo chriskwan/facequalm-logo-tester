@@ -28,6 +28,8 @@
   
   var updateRotation = function (newRotation) {
     var rotation = "rotate(" + newRotation + "deg)";
+    logoFace.style.webkitTransform = rotation;
+    logoFace.style.msTransform = rotation;
     logoFace.style.transform = rotation;
   };
   
